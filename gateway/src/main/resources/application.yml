@@ -1,0 +1,2 @@
+entrypoint: "/api/**"
+upstream: "http://localhost:8082"

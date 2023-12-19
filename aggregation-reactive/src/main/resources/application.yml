@@ -1,0 +1,13 @@
+server:
+    port: 8082
+
+url:
+    amadeus: "http://localhost:8083/api/v1"
+    domain: "http://localhost:8081/api/v1"
+
+webclient:
+    maxConnection: 3750
+    pendingAcquireMaxCount: 7500
+    pendingAcquireTimeout: 45
+    maxIdleTime: -1
+    maxLifeTime: -1
